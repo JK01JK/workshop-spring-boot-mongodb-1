@@ -1,0 +1,11 @@
+Ao seguir todos os passos da aula 338, section 24, recebo a seguinte mensagem de error:
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userResource':
+Unsatisfied dependency expressed through field 'service':
+Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'repo':
+Error creating bean with name 'userRepository' defined in com.nelioalves.workshopmongo.repository.UserRepository defined 
+in @EnableMongoRepositories declared on MongoRepositoriesRegistrar.EnableMongoRepositoriesConfiguration: Cannot resolve reference to bean 'mongoTemplate' while setting bean property 'mongoOperations'
+
+
+
+Por favor, me ajude. Não consigo prosseguir a partir daqui. Segui tudo certinho. Aguardo um retorno. Obrigado!!
